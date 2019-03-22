@@ -1,0 +1,4 @@
+.group_imag_block {
+    box-shadow: 0 -4px 26px 0 rgba(0, 0, 0, .49);
+    background-image: linear-gradient(255deg, #1f334d, #18224d);
+}

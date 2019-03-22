@@ -1,0 +1,26 @@
+.carousel-3d-slide {
+    height: 500px !important;
+}
+ .current{
+    height: 500px !important;
+}
+/* .carousel-3d-slider{
+
+} */
+.carousel-3d-container{
+    height: 500px !important;
+}
+.contacts_slider_item{
+    width: 100%
+}
+.mb287{
+    margin-bottom: 287px;
+}
+
+@media (min-width: 576px) {
+
+    .contacts_slider_item{
+        height: 506px !important;
+    }
+
+}

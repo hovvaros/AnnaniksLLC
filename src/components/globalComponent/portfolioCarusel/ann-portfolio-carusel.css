@@ -1,0 +1,37 @@
+.vueperslide__content-wrapper--outside-top {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.vueperslides--animated .vueperslide__content-wrapper--outside-top {
+  transition: 0.15s ease-in-out;
+  opacity: 0;
+  transform: scale(0);
+}
+
+.vueperslides__parallax-wrapper {
+  height: 375.4px;
+}
+
+.vueperslides__arrows--outside .vueperslides__arrow--next {
+  right: 0;
+}
+.vueperslides__arrows--outside .vueperslides__arrow--prev{
+  left: 0;
+}
+/* .vueperslides__bullets {
+  display: none !important
+} */
+.mb233{
+  margin-bottom: 233px;
+}
+
+
+@media (min-width: 576px) {
+
+  /* .vueperslide{
+    width: 100% !important
+  } */
+
+}

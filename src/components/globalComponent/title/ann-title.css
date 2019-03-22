@@ -1,0 +1,27 @@
+.titleContainer {
+    width: 100%;
+    display: flex;
+    color: #bce0fd;
+    align-items: flex-end;
+    font-family: Arial;
+    font-size: 3vw;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: #c8c8c8;
+  
+}
+
+.titleBorderBottom {
+    border-bottom: 1px solid #bce0fd;
+    flex: 1;
+    height: 1px;
+    margin-right: 10vw;
+    margin-left: 5vw
+}
+.titleText{
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
