@@ -14,7 +14,7 @@
       <a href id="service"></a>
       <ann-title class="mb65" :title="'Services'"></ann-title>
 
-      <ann-long-big-title></ann-long-big-title>
+      <ann-service></ann-service>
       <a id="stuff"></a>
       <ann-title class="mb78" :title="'Stuff'"></ann-title>
 

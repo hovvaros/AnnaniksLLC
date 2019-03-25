@@ -12,8 +12,14 @@
           <span>You dream, We perform</span>
         </div>
         <div class="group_rigth_end_text flex_start width_100">
-          <span class="margin_bottom_lorem">Lorem Ipsum is simply dummy text of the
-            <br>printing and typesetting industry.
+          <span class="margin_bottom_lorem">
+            Our key capabilities
+            <br>
+            - Web Development
+            <br>
+            - Mobile Applications Development
+            <br>
+            - Game Development
           </span>
         </div>
       </div>

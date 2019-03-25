@@ -11,25 +11,25 @@
     <div class="footer_container no-gutters row">
       <div class="col-md-3 com-sm-6 media_margin_footer_left">
         <div class="footer_text_reg">
-          <span>Аbout us</span>
+          <a href="#">About us</a>
         </div>
         <div class="footer_text_reg">
-          <span>Services</span>
+          <a href="#service">Servise</a>
         </div>
         <div class="footer_text_reg">
-          <span>Our advantages</span>
+          <a href="#ourTeam">our advantegs</a>
         </div>
       </div>
 
       <div class="col-md-3 com-sm-6 media_margin_footer_rigth">
         <div class="footer_text_reg">
-          <span>Portfolio</span>
+          <a href="#portfolio">Portfolio</a>
         </div>
         <div class="footer_text_reg">
-          <span>Stuff</span>
+          <a href="#stuff">Stuff</a>
         </div>
         <div class="footer_text_reg">
-          <span>Contacts</span>
+          <a href="#contact">Contacts</a>
         </div>
       </div>
 

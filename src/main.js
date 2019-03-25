@@ -7,6 +7,9 @@ import 'vuetify/dist/vuetify.min.css'
 import Vuetify from 'vuetify'
 import Carousel3d from 'vue-carousel-3d';
 
+// Components
+// Components
+
 Vue.use(Carousel3d);
 Vue.use(Vuetify)
 Vue.config.productionTip = false

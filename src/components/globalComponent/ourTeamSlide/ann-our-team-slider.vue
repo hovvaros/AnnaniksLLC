@@ -1,14 +1,14 @@
 <template>
   <div class="mb287">
-    <carousel-3d>
-      <slide v-for="(i,index) of 6" :key="index" :index="i">
+    <carousel-3d v-if="staff">
+      <slide v-for="(i, index) of staff" :key="i._id" :index="index">
         <div class="contacts_slider_item">
-          <div class="img_contacts_slider"></div>
+          <div class="img_contacts_slider" :style="{'background-image':'url('+'http://zont.cab:4531/static/'+i.image+ ')'}"></div>
           <div class="contacts_top_text">
-            <span>Name Surname</span>
+            <span>{{ i.localization[0].name }}</span>
           </div>
           <div class="contacts_center_text">
-            <span>Co-Founder &amp; CTO</span>
+            <span>{{i.localization[0].rol }}</span>
           </div>
           <div class="contacts_bottom_text">
             <span>

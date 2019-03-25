@@ -950,6 +950,8 @@ textarea {
     box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.25);
     margin-top: 43px;
     margin-bottom: 27px;
+    background-position: center center;
+    background-size: contain;
 }
 
 .contacts_top_text {

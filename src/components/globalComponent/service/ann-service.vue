@@ -1,7 +1,11 @@
 <template>
   <div class="chemrar row no-gutters">
     <div class="width_fixed width_80_auto media_margin">
-      <div class="chemrar_top_item"></div>
+      <!-- v-for="(item,index) of service"
+      :key="index"-->
+      <div class="chemrar_top_item">
+        <!-- :style="{'background-imag':'url(http://zont.cab:4531' +item.image + ')' }" -->
+      </div>
 
       <div class="chemrar_bottom_item">
         <div class="chemrar_bottom_text">
@@ -21,5 +25,5 @@
   </div>
 </template>
 
-<script src='./ann-long-bit-title.js'></script>
-<style src='./ann-long-bit-title.css'></style>
+<script src='./ann-service.js'></script>
+<style src='./ann-service.css'></style>
