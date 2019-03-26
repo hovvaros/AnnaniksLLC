@@ -16,7 +16,7 @@ export default {
          .get("http://zont.cab:4531/staff")
          .then(response => {
             this.staff = response.data;
-            console.log(this.staff);
+         
     });
     
    

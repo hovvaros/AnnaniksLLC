@@ -844,7 +844,6 @@ textarea {
 }
 
 .chemrar_top_item {
-    background-color: green;
     height: 360px;
     box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.25);
 }
@@ -888,6 +887,7 @@ textarea {
     color: #ffffff;
     margin-left: 30px;
     margin-right: 30px;
+    overflow: hidden;
 }
 
 .chemrer_bottom_bottom_text {
@@ -1160,5 +1160,6 @@ textarea {
 .fb_font_size {
     font-size: 25px;
 }
+
 
 /* global css */

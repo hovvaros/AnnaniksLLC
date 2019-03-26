@@ -2,13 +2,35 @@ import axios from "axios";
 export default {
   data() {
     return {
-      service: null
+      service: null,
+      isactiveArr: [],
+      isActiveFalse: []
     };
   },
-  created() {
+  mounted() {
     axios.get("http://zont.cab:4531/service").then(response => {
       this.service = response.data;
       console.log(this.service);
+      this.filtrIsactive();
     });
+  },
+  methods: {
+    filtrIsactive: function() {
+      for (const i of this.service) {
+        if (i.isActive) {
+          this.isactiveArr.push(i);
+        } else {
+          this.isActiveFalse.push(i);
+        }
+      }
+    },
+   
+  },
+  filters: {
+    capitalize: function(value) {
+      value=toString(value)
+      value = value.toString();
+      return value.splice(0, 15);
+    }
   }
 };

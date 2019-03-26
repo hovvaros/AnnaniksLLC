@@ -3,7 +3,7 @@
     <carousel-3d v-if="staff">
       <slide v-for="(i, index) of staff" :key="i._id" :index="index">
         <div class="contacts_slider_item">
-          <div class="img_contacts_slider" :style="{'background-image':'url('+'http://zont.cab:4531/static/'+i.image+ ')'}"></div>
+          <div class="img_contacts_slider" :style="{'background-image':'url(http://zont.cab:4531/static/'+i.image+ ')'}"></div>
           <div class="contacts_top_text">
             <span>{{ i.localization[0].name }}</span>
           </div>

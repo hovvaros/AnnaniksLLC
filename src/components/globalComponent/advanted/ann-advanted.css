@@ -1,0 +1,12 @@
+.patchContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+@media (max-width: 730px) {
+    .patchContainer {
+        justify-content: center !important;
+    }
+}

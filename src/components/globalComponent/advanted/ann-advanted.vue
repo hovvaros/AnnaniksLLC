@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="width_80_auto patch">
+  <div class="patchContainer">
+    <div class="width_80_auto patch" v-for="i in 4" :key="i">
       <div class="patch_text">
         <span>{{ AtvantegsDescription }}</span>
       </div>
