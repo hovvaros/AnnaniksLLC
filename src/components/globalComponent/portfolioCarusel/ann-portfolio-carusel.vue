@@ -11,8 +11,8 @@
         </div>
         <br>
 
-        <div class="gallery_product   col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-          <ann-portfolio-item v-for="(i,index) of portfolioIsactiveArr" :key="index"  :portfolioInfo='i'></ann-portfolio-item>
+        <div class="gallery_product   col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe" v-for="(i,index) of portfolioIsactiveArr" :key="index" >
+          <ann-portfolio-item class="img-responsive" :portfolioInfo='i'></ann-portfolio-item>
         </div>
 
         <div class="gallery_product  col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
@@ -30,6 +30,7 @@
         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
         <!-- <ann-portfolio-item></ann-portfolio-item> -->
         </div>
+        
       </div>
     </div>
   </div>

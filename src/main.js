@@ -7,10 +7,10 @@ import 'vuetify/dist/vuetify.min.css'
 import Vuetify from 'vuetify'
 import Carousel3d from 'vue-carousel-3d';
 import PortfolioItem from './components/globalComponent/portfolioItem/ann-portfolio-item.vue'
-
+import Vuex from 'vuex';
 
 // Components
-
+Vue.use(Vuex);
 Vue.component('ann-portfolio-item', { PortfolioItem})
 // Components
 

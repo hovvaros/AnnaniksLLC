@@ -10,7 +10,6 @@ export default {
   mounted() {
     axios.get("http://zont.cab:4531/service").then(response => {
       this.service = response.data;
-      console.log(this.service);
       this.filtrIsactive();
     });
   },
@@ -27,10 +26,10 @@ export default {
    
   },
   filters: {
-    capitalize: function(value) {
-      value=toString(value)
+    capitalize: function() {
+      value=toString()
       value = value.toString();
-      return value.splice(0, 15);
+      return value.slice(0, 15);
     }
-  }
+  },
 };

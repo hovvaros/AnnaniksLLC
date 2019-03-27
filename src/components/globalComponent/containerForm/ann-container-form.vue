@@ -7,17 +7,31 @@
       </span>
     </div>
     <div class="col-md-6 row flex_column nor-gutters">
-      <input type="text" class="name_inpute  width100media" placeholder="First Name" name id>
+      <!-- <input type="text" class="name_inpute  width100media" placeholder="First Name" name id> -->
+      <v-text-field
+        v-model="firstname"
+        :rules="nameRules"
+        :counter="10"
+        label="First name"
+        required
+      ></v-text-field>
+      <v-text-field v-model="lastname" :rules="nameRules" :counter="10" label="Last name" required></v-text-field>
 
-      <input type="text" class="name_inpute  width100media" placeholder="Last Name" name id>
+      <v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
 
-      <input type="text" class="name_inpute  width100media" placeholder="Your Email Address" name id>
+       <v-text-field v-model="phone"  label="Phone Number"  required></v-text-field>
 
-      <input type="text" class="name_inpute  width100media" placeholder="Phone Number" name id>
+      <!-- <textarea rows="10" cols="45" class="input_text width100media" label="Message" placeholder=""></textarea> -->
 
-      <textarea rows="10" cols="45" class="input_text width100media" placeholder="Message"></textarea>
+        <v-textarea
+        class="textarea"
+          name="input-7-1"
+          label="Message"
+          :countri=5
+          v-model="textarea"
+        ></v-textarea>
       <div class="button_block">
-        <div class="button">
+        <div @click="postFormData" class="button">
           <span>Submit</span>
         </div>
       </div>

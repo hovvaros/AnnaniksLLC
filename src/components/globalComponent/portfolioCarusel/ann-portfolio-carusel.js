@@ -40,7 +40,6 @@ export default {
   mounted() {
     axios.get("http://zont.cab:4531/portfolio").then(response => {
       this.portfolioArr = response.data;
-      console.log(this.portfolioIsactiveArr);
       this.filterPortfolioIsactive();
     });
   },

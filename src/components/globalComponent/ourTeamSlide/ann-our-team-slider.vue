@@ -20,9 +20,7 @@
             </span>
           </div>
 
-          <div class="container_slider_button">
-            <span>CONTACT</span>
-          </div>
+         
         </div>
       </slide>
     </carousel-3d>

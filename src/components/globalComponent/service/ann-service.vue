@@ -11,8 +11,8 @@
           <span>{{ i.title }}</span>
         </div>
         <div class="chemrar_bottom_center_text">
-          <span>
-           {{ i.description }}
+          <span >
+           {{ i.description  }}
           </span>
         </div>
         <div class="chemrer_bottom_bottom_text">
