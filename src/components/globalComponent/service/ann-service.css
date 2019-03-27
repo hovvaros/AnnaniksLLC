@@ -1,5 +1,11 @@
-.chemrar_top_item{
+.chemrar_top_item {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 891px) {
+    .chemrar {
+        justify-content: center
+    }
 }
