@@ -2,7 +2,7 @@
   <div class="row no-gutters container_center">
     <div class="container_center_item">
       <a id="ourTeam"></a>
-      <ann-title class="Mt173Mb60" :title="'Our Team'"></ann-title>
+      <ann-title class="Mt173Mb60" :title="'Our advantages'"></ann-title>
 
       <div class="row patch_container no-gutters">
         <ann-advantages></ann-advantages>

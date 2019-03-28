@@ -9,15 +9,21 @@ import Carousel3d from 'vue-carousel-3d';
 import PortfolioItem from './components/globalComponent/portfolioItem/ann-portfolio-item.vue'
 import Vuex from 'vuex';
 
+import Vuelidate from 'vuelidate'
+import VeeValidate from "vee-validate";
+
+
+Vue.use(VeeValidate);
 // Components
-Vue.use(Vuex);
 Vue.component('ann-portfolio-item', { PortfolioItem})
 // Components
 
 
 // Plugin
-Vue.use(Carousel3d);
+Vue.use(Vuex);
 Vue.use(Vuetify)
+Vue.use(Vuelidate)
+Vue.use(Carousel3d);
 Vue.config.productionTip = false
 // Plugin
 /* eslint-disable no-new */

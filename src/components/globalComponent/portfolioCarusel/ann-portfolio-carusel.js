@@ -46,7 +46,7 @@ export default {
   methods: {
     filterPortfolioIsactive() {
       for (let i of this.portfolioArr) {
-        if (i.isActive) {
+        if (i.isActive && i.image!="") {
           this.portfolioIsactiveArr.push(i);
         } else {
           this.portfolioIsFalse.push(i);

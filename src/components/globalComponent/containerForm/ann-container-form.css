@@ -1,28 +1,39 @@
-.width100media {
-    width: 100%;
-    padding-left: 10px
-}
-.v-input{
-    margin-bottom: 15px
-}
-.v-input input{
-    
+.input{
     height: 42px;
     border-radius: 4px;
     border: solid 1px #dbeefe;
     background-color: #f1f9ff;
 }
-.v-text-field .v-label{
-    color: #c2c2c2;
-    top:4px;
-    font-size: 13px
+.textArea{
+    height: 151px !important;
+  border-radius: 4px;
+  border: solid 1px #dbeefe;
+  background-color: #f1f9ff;
+
 }
-textarea{
-    border-radius: 4px;
-    border: solid 1px #dbeefe;
-    background-color: #f1f9ff;
+.jumbotron{
+background-color: transparent;
+color: white;
 }
-/* .v-messages__message{
-    color: #ff5252!important;
-    caret-color: #ff5252!important;
-} */
+.invalid-feedback{
+    color: #f16868;
+    font-size: 15px;
+}
+.ml115{
+    margin-left: 115px;
+}
+@media screen and (max-width:1250px){
+    .ml115{
+        margin: 0
+    }
+}
+@media screen and (max-width:600px){
+
+.titleText{
+    font-size: 6vw;
+
+}
+.titleBorderBottom{
+    margin-right: 25px;
+}
+}

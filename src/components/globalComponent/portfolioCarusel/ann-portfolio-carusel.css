@@ -1,4 +1,10 @@
 
+*a{
+    font-family: sans-serif !important;
+}
+body{
+    font-family: sans-serif !important;
+}
 .gallery-title
 {
     font-size: 36px;
@@ -18,8 +24,6 @@
 .filter-button
 {
     font-size: 18px;
-    /* border: 1px solid #42B32F; */
-    border-radius: 18px;
     text-align: center;
     color: #42B32F;
     margin-bottom: 30px;
@@ -28,8 +32,6 @@
 .filter-button:hover
 {
     font-size: 18px;
-    /* border: 1px solid #42B32F; */
-  
     text-align: center;
     color: #ffffff;
     background-color: #42B32F;
@@ -39,6 +41,15 @@
 {
     background-color: #42B32F;
     color: white;
+}
+.btn-default{
+    background-color: #18244d;
+    border: none !important
+}
+
+.btn-default:focus{
+    background-color: #42B32F;
+    color: white
 }
 
 .port-image
