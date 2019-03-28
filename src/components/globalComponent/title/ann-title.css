@@ -24,3 +24,21 @@
     margin-left: 3vw;
     margin-right: 2vw;
 }
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+@media screen and (max-width:400px){
+    .titleContainer {
+        margin-top: 55px
+    }
+    .mb287{
+        margin-bottom: 125px !important;
+    }
+    .button_block{
+        margin-bottom: 200px !important;
+    }
+    .media_margin_footer_left{
+        margin-bottom: 90px;
+    }
+}
