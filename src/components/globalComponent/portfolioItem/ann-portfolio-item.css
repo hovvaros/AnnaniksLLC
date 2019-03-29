@@ -12,6 +12,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.v-dialog__content--active{
+    background-color: rgba(0, 0, 0, 0.5) !important
+}
 @media (max-width: 900px){
     .slider_item_top{
         width: 100%

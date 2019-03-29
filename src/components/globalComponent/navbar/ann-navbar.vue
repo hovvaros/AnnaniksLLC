@@ -2,7 +2,9 @@
   <div>
     <div class="navbar row no-gutters dis_center">
       <div class="navbar_logo">
+        <a href="#"> 
         <img src="./../../../assets/Annaniks_logo.png" class="width_logo" alt>
+        </a>
       </div>
 
       <div @click="burgerEmit" class="displey_lg_none icon_burger">

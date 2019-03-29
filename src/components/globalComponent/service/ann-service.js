@@ -25,11 +25,5 @@ export default {
     },
    
   },
-  filters: {
-    capitalize: function() {
-      value=toString()
-      value = value.toString();
-      return value.slice(0, 15);
-    }
-  },
+  
 };

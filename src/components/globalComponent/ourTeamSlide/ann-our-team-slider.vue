@@ -13,10 +13,9 @@
           <div class="contacts_bottom_text">
             <span>
               Lorem ipsum dolor sit
-              <span class="displey_none">
-                amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                ero labore et dolore.
-              </span>
+               amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+               ero labore et dolore.
+             
             </span>
           </div>
 

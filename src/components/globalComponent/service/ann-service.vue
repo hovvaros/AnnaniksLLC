@@ -12,7 +12,7 @@
         </div>
         <div class="chemrar_bottom_center_text">
           <span >
-           {{ i.description  }}
+           {{ i.description.substring(0,200) }}
           </span>
         </div>
         <div class="chemrer_bottom_bottom_text">

@@ -18,7 +18,6 @@
               <span class="margin_left_30">
                 <!-- {{ portfolioInfo.description }} -->
                            {{ portfolioInfo.description}}
-
               </span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 
-*a{
+/* *a{
     font-family: Arial !important;
-}
+} */
 
 .gallery-title
 {
@@ -23,7 +23,7 @@
 {
     font-size: 18px;
     text-align: center;
-    color: #42B32F;
+    color: #90c542;
     margin-bottom: 30px;
   
 }
@@ -32,12 +32,12 @@
     font-size: 18px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #90c542;
 
 }
 .btn-default:active .filter-button:active
 {
-    background-color: #42B32F;
+    background-color: #90c542;
     color: white;
 }
 .btn-default{
@@ -46,7 +46,7 @@
 }
 
 .btn-default:focus{
-    background-color: #42B32F;
+    background-color: #90c542;
     color: white
 }
 

@@ -129,7 +129,9 @@ margin: 0;
     .navbar_item{
         flex: 9;
     }
-    
+    .Annaniks_colr{
+        padding-top: 50px;
+    }
 
   }
 
@@ -151,6 +153,7 @@ margin: 0;
         display: block;
     }
     .width_logo{
+      
         margin:24px  34px 24px 34px;
     }
     .container_center {
@@ -175,7 +178,7 @@ margin: 0;
 
 }
 .Annaniks_colr {
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
 
     margin-bottom: 20px;
     padding-top: 0;
@@ -191,7 +194,7 @@ margin: 0;
 }
 
 .group_rigth_text {
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
 
     margin-bottom: 30px;
     opacity: 0.71;
@@ -207,7 +210,7 @@ margin: 0;
 }
 
 .group_rigth_end_text {
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
 
     opacity: 0.5;
     font-family: ArialRoundedMT;
@@ -244,7 +247,7 @@ margin: 0;
         margin-top: 40px !important;
     }
     .width_100{
-        margin-left: 5vw;
+        /* margin-left: 5vw; */
     
     }
     .media_margin_141{
@@ -297,7 +300,7 @@ margin: 0;
     width: 100%;
 }
 .margin_left_6vw{
-    margin-left: 0;
+    margin: 27px;
 }
 
 .Annaniks_colr  {font-family: ArialRoundedMT;
@@ -334,7 +337,7 @@ margin-bottom: 20px;
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    margin-bottom: 61px;
+    margin-bottom: 80px;
 }
 .group_imag_block{
     min-height:690px;
@@ -396,7 +399,6 @@ margin-bottom: 20px;
     .media_center{
         justify-content: center;
         align-items: flex-end;
-        margin-bottom: 56px;
     }
     .width_fit{
         margin-right: 2vw;

@@ -27,8 +27,11 @@
 a{
     text-decoration: none !important;
     cursor: pointer;
+    outline: none;
+
 }
-@media screen and (max-width:400px){
+
+@media screen and (max-width:550px){
     .titleContainer {
         margin-top: 55px
     }

@@ -22,6 +22,9 @@ color: white;
 .ml115{
     margin-left: 115px;
 }
+.form-group{
+    font-family: Arial;
+}
 @media screen and (max-width:1250px){
     .ml115{
         margin: 0

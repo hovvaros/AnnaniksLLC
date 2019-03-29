@@ -558,7 +558,9 @@ textarea {
 
 .width_logo {
     width: 45px;
+    height: 45px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -1138,7 +1140,9 @@ textarea {
     color: #90c542;
     margin-bottom: 23px;
 }
-
+.footer_text_reg div a:hover{
+    color: #90c542 !important;
+}
 .footer_container_text_top span {
     margin-left: 3.3vw;
 }
@@ -1161,7 +1165,9 @@ textarea {
     font-size: 25px;
 }
 
-
+a:hover{
+    color: #90c542
+}
 
 
 /* font-famely */

@@ -17,10 +17,19 @@
     margin-bottom: 287px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 
     .contacts_slider_item{
         height: 506px !important;
+    }
+    .carousel-3d-slide.current{
+        width: 200px !important
+    }
+    .carousel-3d-slider{
+        width: 200px !important
+    }
+    .carousel-3d-slide{
+        width: 200px !important
     }
 
 }
