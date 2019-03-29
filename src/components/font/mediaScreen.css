@@ -118,6 +118,7 @@ margin: 0;
 .max_width{
     width: 311px;
     height: 298px;
+    margin-bottom: 25px
 }
 
   }
@@ -169,6 +170,9 @@ margin: 0;
 }
 
 @media (max-width: 766px) {
+    .margin_left_6vw{
+        margin: 27px;
+    }
 .max_width{
     width: 63vw;
     height: 62vw;
@@ -299,9 +303,7 @@ margin: 0;
 .navbar_item {
     width: 100%;
 }
-.margin_left_6vw{
-    margin: 27px;
-}
+
 
 .Annaniks_colr  {font-family: ArialRoundedMT;
     padding-top: 0;

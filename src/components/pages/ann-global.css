@@ -570,6 +570,7 @@ textarea {
 .max_width {
     width: 43vw;
     height: 40vw;
+    margin-bottom: 180px;
 }
 
 .group_media_center {
@@ -628,9 +629,11 @@ textarea {
     text-align: left;
     color: #ffffff;
     margin-top: auto;
+    margin-bottom: 38px;
 }
 
 .group_rigth_text {
+    margin-bottom: 42px;
     opacity: 0.71;
     font-family: ArialRoundedMT;
     font-size: 3vw;
